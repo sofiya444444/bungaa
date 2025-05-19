@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floristería de Alambre con Felpa- Hadiah Unik dan Kreatif</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Musik Latar -->
+    <audio id="bgMusic" loop>
+        <source src="mp3.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+    
+    <!-- Tombol Musik -->
+    <div class="music-control">
+        <button id="musicToggle"><i class="fas fa-music"></i></button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="sofi.jpg" alt="Floristería de Alambre con Felpa">
+                <h1>Floristería de Alambre con Felpa</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="animate-text">Floristería de Alambre con Felpa</h2>
+                <p class="animate-text">Hadiah sempurna untuk orang terkasih yang takkan pernah layu</p>
+                <a href="#products" class="btn animate-btn">Lihat Koleksi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Koleksi Kami</h2>
+            <div class="product-grid">
+                <!-- Produk 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="tulip.jpg" alt="Bunga Mawar Kawat">
+                        <div class="overlay">
+                            
+                        </div>
+                    </div>
+                    <h3>Bunga Tulip Maroon</h3>
+                    <p class="price">Rp 150.000</p>
+                    
+                </div>
+                
+                <!-- Produk 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="tulip pink.jpg" alt="Bunga Tulip Kawat">
+                        <div class="overlay">
+                            
+                        </div>
+                    </div>
+                    <h3>Bunga Tulip Pink</h3>
+                    <p class="price">Rp 175.000</p>
+                    
+                </div>
+                
+                <!-- Produk 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="matahari.jpg" alt="Bunga Matahari Kawat">
+                        <div class="overlay">
+                        
+                        </div>
+                    </div>
+                    <h3>Bunga Matahari </h3>
+                    <p class="price">Rp 200.000</p>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Toko Bunga Kawat Lilit adalah tempat yang sempurna untuk menemukan hadiah unik dan kreatif. Kami mengkhususkan diri dalam pembuatan bunga dari kawat lilit yang indah dan tahan lama, dirancang dengan penuh cinta dan perhatian terhadap detail. Setiap bunga kami adalah simbol perasaan yang mendalam, ideal untuk berbagai kesempatan seperti ulang tahun dan ungkapan kasih sayang.</p>
+                    <p>Dengan bahan berkualitas tinggi dan teknik inovatif, kami memastikan setiap produk tidak hanya cantik tetapi juga awet. Kunjungi kami untuk menemukan koleksi bunga kawat lilit yang menakjubkan dan sampaikan perasaan Anda dengan cara yang istimewa.</p>
+                </div>
+                <div class="about-image">
+                    <img src="tulip merah.jpg" alt="Proses Pembuatan Bunga Kawat">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Bunga Indah No. 123, Kota Anda</p>
+                    <p><i class="fas fa-phone"></i> +62 812 3456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@tokobungakawat.com</p>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/qr/6JNU4MS2BJ6SO1"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form>
+                       <form action="https://formsubmit.co/shofeya12@gmail.com" method="POST">
+             <input type="text" name="nama" placeholder="Nama Anda" required>
+             <input type="email" name="email" placeholder="Email Anda" required>
+             <textarea name="pesan" placeholder="Pesan Anda" required></textarea>
+              <button type="submit" class="btn">Kirim</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Toko Bunga Kawat Lilit. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
